@@ -22,5 +22,6 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
     },
     'gatsby-plugin-offline',
+    `gatsby-plugin-react-helmet`,
   ]
 }
