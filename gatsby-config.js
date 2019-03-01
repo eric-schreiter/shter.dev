@@ -2,6 +2,7 @@ const path = require(`path`)
 
 module.exports = {
   plugins: [
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -21,6 +22,6 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
     },
     'gatsby-plugin-offline',
-    `gatsby-plugin-react-helmet`,
+    
   ]
 }
