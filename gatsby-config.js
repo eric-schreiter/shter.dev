@@ -8,7 +8,7 @@ module.exports = {
       options: {
         name: `Eric Schreiter`,
         short_name: `shter.dev`,
-        start_url: `.`,
+        start_url: `/`,
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
         display: `minimal-ui`,
